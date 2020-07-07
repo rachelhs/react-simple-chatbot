@@ -670,7 +670,6 @@ class ChatBot extends Component {
           style={style}
           width={width}
           height={height}
-          background-color="red"
         >
           {!hideHeader && header}
           <Content
@@ -679,7 +678,6 @@ class ChatBot extends Component {
             floating={floating}
             style={contentStyle}
             height={height}
-            background-color="red"
             hideInput={currentStep.hideInput}
           >
             {renderedSteps.map(this.renderStep)}
